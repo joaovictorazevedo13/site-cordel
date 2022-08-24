@@ -6,15 +6,12 @@
 font-family: 'Passion One', cursive;
 font-family: 'Sriracha', cursive;
 */
-
-* {
+*{
     margin: 0px;
-    padding: 0px;
 }
 
 html, body {
     font-family: 'Passion One', cursive;
-    min-height: 100vh;
 }
 
 header {
@@ -31,14 +28,16 @@ header > h1 {
     font-size: 4.5em;
 }
 
+header > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h3 > a {
     text-decoration: none;
     color: white;
-    font-style: italic;
-}
-h3 > a:hover {
     text-decoration: underline;
 }
+
 
 main {
     background-color: white;
@@ -47,6 +46,7 @@ main {
 }
 
 div {
+   
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
@@ -56,33 +56,42 @@ div.livro {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center bottom;
-    font-size: 3em;
+    background-size: cover;
+    font-size: 2em;
+    text-shadow: 1px 1px 0px black;
     color: white;
     padding: 10px 10px 10px 30px;
     line-height: 60px;
+    
 
 }
 div.joaninha {
     background-image: url(./imagens/background001.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center bottom;
-    font-size: 3em;
+    background-position: right center;
+    background-size: cover;
+    font-size: 2em;
+    text-shadow: 1px 1px 0px black;
     color: white;
     padding: 10px 10px 10px 30px;
     line-height: 60px;
 }
 
 div.p2 {
+    
+    max-width: 100%;
     background: white;
     color: black;
-    font-size: 3em;
+    font-size: 2em;
     padding: 10px 10px 10px 30px;
     line-height: 60px;
+    
 
 }
 
 .quadro1 {
+
     background-color: rgba(0, 0, 0, 0.388);
     width: 600px;
     padding: 40px 10px;
@@ -98,12 +107,14 @@ footer {
     text-align: center;
     background-color: black;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer > a {
     text-decoration: none;
     color: white;
     text-decoration: underline;
+    
 }
 footer > a:hover {
     color: black;
