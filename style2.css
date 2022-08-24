@@ -1,9 +1,20 @@
 @charset "UTF-8";
 
-body {
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+/*
+font-family: 'Passion One', cursive;
+font-family: 'Sriracha', cursive;
+*/
+
+* {
     margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    font-family: 'Passion One', cursive;
+    min-height: 100vh;
 }
 
 header {
@@ -11,10 +22,13 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    padding: 20px 10px;
+    line-height: 45px;
 }
 
-h1 {
-
+header > h1 {
+    font-variant: small-caps;
+    font-size: 4.5em;
 }
 
 h3 > a {
@@ -28,13 +42,28 @@ h3 > a:hover {
 
 main {
     background-color: white;
-    color: black;
-
-    
+    color: black;  
+    font-family: 'Sriracha', cursive
 }
 
-.p1 {
+div {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+div.livro {
     background-image: url(./imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+    font-size: 3em;
+    color: white;
+    padding: 10px 10px 10px 30px;
+    line-height: 60px;
+
+}
+div.joaninha {
+    background-image: url(./imagens/background001.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center bottom;
@@ -44,15 +73,13 @@ main {
     line-height: 60px;
 }
 
-.p2 {
-    background-image: url(./imagens/background001.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    color: white;
+div.p2 {
+    background: white;
+    color: black;
     font-size: 3em;
     padding: 10px 10px 10px 30px;
     line-height: 60px;
+
 }
 
 .quadro1 {
@@ -71,8 +98,6 @@ footer {
     text-align: center;
     background-color: black;
     color: white;
-    margin-top: -20px;
-    margin-bottom: -20px;
 }
 
 footer > a {
