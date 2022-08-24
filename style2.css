@@ -15,6 +15,7 @@ html, body {
 }
 
 header {
+    margin: 0px;
     padding: 2px;
     background-color: black;
     color: white;
@@ -47,8 +48,9 @@ main {
 
 div {
    
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    margin-left: -25px;
 }
 
 div.livro {
@@ -57,10 +59,11 @@ div.livro {
     background-attachment: fixed;
     background-position: center bottom;
     background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px black;
     font-size: 2em;
     text-shadow: 1px 1px 0px black;
     color: white;
-    padding: 10px 10px 10px 30px;
+    padding: 80px 10px 80px 30px;
     line-height: 60px;
     
 
@@ -74,17 +77,17 @@ div.joaninha {
     font-size: 2em;
     text-shadow: 1px 1px 0px black;
     color: white;
-    padding: 10px 10px 10px 30px;
+    padding: 80px 10px 80px 30px;
     line-height: 60px;
 }
 
-div.p2 {
+div.branco {
     
     max-width: 100%;
     background: white;
     color: black;
     font-size: 2em;
-    padding: 10px 10px 10px 30px;
+    padding: 50px 10px 50px 30px;
     line-height: 60px;
     
 
@@ -92,13 +95,14 @@ div.p2 {
 
 .quadro1 {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.388);
+    background-color: transparent;
     padding: 10px 30px 10px 10px;
     
 }
 
-.quadro {
-    background-color: transparent;
+.quadro2 {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.40);
     width: 600px;
     padding: 40px 10px;
 }
